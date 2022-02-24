@@ -32,11 +32,11 @@ ___
 
 ​	雷达在获取数据时，若雷达同时在运动，则一帧雷达数据中，雷达点会在不同位置被采集。比如，扫描频率5Hz的激光雷达，一帧数据的首尾时间差200ms，若机器人以0.5m/s的速度向x方向移动，扫描前面的墙面，那么200ms后尾部的测量距离和首部的测量距离在x方向上相差10cm，如下图所示：
 
-![image-20220224234839105](C:\Users\82458\Desktop\github\Automatic-Pathfinding-4WD\img\image-1.png)
+![image-20220224234839105](https://github.com/bupingxx/Automatic-Pathfinding-4WD/blob/main/img/image-1.png)
 
 ​	这里使用插值的方法处理运动畸变，代码中已做了注释。处理前后对比如下：
 
-![image-20220224235752466](C:\Users\82458\Desktop\github\Automatic-Pathfinding-4WD\img\image-2.png)
+![image-20220224235752466](https://github.com/bupingxx/Automatic-Pathfinding-4WD/blob/main/img/image-2.png)
 
 
 
@@ -80,7 +80,7 @@ ___
 
 #### 四、运行效果
 
-![image-20220225000632855](C:\Users\82458\Desktop\github\Automatic-Pathfinding-4WD\img\image-3.png)
+![image-20220225000632855](https://github.com/bupingxx/Automatic-Pathfinding-4WD/blob/main/img/image-3.png)
 
 
 
